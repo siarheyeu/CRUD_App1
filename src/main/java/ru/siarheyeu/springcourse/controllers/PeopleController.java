@@ -21,12 +21,12 @@ public class PeopleController {
 
     @GetMapping()
     public String index(Model model){
-        //Получим всех людей из DAO и передадим на отображение в представление
-        return null;
+        model.addAttribute("people", personDAO.index());
+        return "people/index";
     }
     @GetMapping("/{id}")
     public String show (@PathVariable("id") int id, Model model){
-        //Получим одного человека по id из DAO и передадим на отображение в представление
-        return null;
+        model.addAttribute("person", personDAO.show(id));
+        return "people/show";
     }
 }
