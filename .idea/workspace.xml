@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +156,8 @@
       <workItem from="1671141796041" duration="40000" />
       <workItem from="1671279481478" duration="504000" />
       <workItem from="1671307922989" duration="2155000" />
-      <workItem from="1671367667914" duration="2976000" />
+      <workItem from="1671367667914" duration="3767000" />
+      <workItem from="1671482737822" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671310539956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PATCH Request">
+      <created>1671396737439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671396737439</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="Initial Commit 2" />
     <MESSAGE value="CRUD, REST, Pattern DAO" />
     <MESSAGE value="Annotation @ModelAttribute. HTML Forms(Thymeleaf)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotation @ModelAttribute. HTML Forms(Thymeleaf)" />
+    <MESSAGE value="PATCH Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="PATCH Request" />
   </component>
 </project>
