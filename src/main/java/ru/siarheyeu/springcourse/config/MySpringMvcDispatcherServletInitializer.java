@@ -18,4 +18,12 @@ public class MySpringMvcDispatcherSerlvetIntitializer extends AbstractAnnotation
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
+
+    @Override
+    public void onStartup(servletContext aServletContext) throws ServletException{
+        super.onStartup(aServletContext);
+        registerHiddenFieldFilter(aServletContext);
+    }
+
+
 }
