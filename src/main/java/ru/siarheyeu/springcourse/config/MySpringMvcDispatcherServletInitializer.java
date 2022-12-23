@@ -1,5 +1,6 @@
 package ru.siarheyeu.springcourse.config;
 
+import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 
@@ -25,5 +26,8 @@ public class MySpringMvcDispatcherSerlvetIntitializer extends AbstractAnnotation
         registerHiddenFieldFilter(aServletContext);
     }
 
-
+private void registerHiddenFieldFilter(ServletContext aContext){
+        aContext.addFilter("hiddenHttpMethodFilter",
+                new HiddenHttpMethodFilter()).addMappingForUrlPatterns
+                (null, true, "/*")}
 }
