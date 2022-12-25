@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +165,10 @@
       <workItem from="1671570781000" duration="615000" />
       <workItem from="1671656353130" duration="1807000" />
       <workItem from="1671717119957" duration="1873000" />
-      <workItem from="1671828808251" duration="1843000" />
+      <workItem from="1671828808251" duration="2171000" />
+      <workItem from="1671884666612" duration="601000" />
+      <workItem from="1671912925217" duration="1125000" />
+      <workItem from="1671996199849" duration="3867000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -214,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671829002806</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DELETE Request">
+      <created>1671834947086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671834947086</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +240,7 @@
     <MESSAGE value="PATCH Request 2" />
     <MESSAGE value="PATCH Request 3" />
     <MESSAGE value="PATCH Request 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="PATCH Request 4" />
+    <MESSAGE value="DELETE Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="DELETE Request" />
   </component>
 </project>
