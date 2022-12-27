@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,8 @@
       <workItem from="1671884666612" duration="601000" />
       <workItem from="1671912925217" duration="1125000" />
       <workItem from="1671996199849" duration="4591000" />
-      <workItem from="1672071904084" duration="610000" />
+      <workItem from="1672071904084" duration="1344000" />
+      <workItem from="1672159615712" duration="2142000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672000888378</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Validation of forms 2">
+      <created>1672087948881</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672087948881</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +254,7 @@
     <MESSAGE value="PATCH Request 4" />
     <MESSAGE value="DELETE Request" />
     <MESSAGE value="Validation of forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation of forms" />
+    <MESSAGE value="Validation of forms 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation of forms 2" />
   </component>
 </project>
