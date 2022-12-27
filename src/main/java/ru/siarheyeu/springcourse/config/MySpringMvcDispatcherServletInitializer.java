@@ -29,5 +29,5 @@ public class MySpringMvcDispatcherSerlvetIntitializer extends AbstractAnnotation
 private void registerHiddenFieldFilter(ServletContext aContext){
         aContext.addFilter("hiddenHttpMethodFilter",
                 new HiddenHttpMethodFilter()).addMappingForUrlPatterns
-                (null, true, "/*")}
+                (null, true, "/*");}
 }

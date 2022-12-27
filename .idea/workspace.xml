@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +167,7 @@
       <workItem from="1671912925217" duration="1125000" />
       <workItem from="1671996199849" duration="4591000" />
       <workItem from="1672071904084" duration="1344000" />
-      <workItem from="1672159615712" duration="2142000" />
+      <workItem from="1672159615712" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672087948881</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Validation of forms 3">
+      <created>1672174317483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672174317483</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +263,7 @@
     <MESSAGE value="DELETE Request" />
     <MESSAGE value="Validation of forms" />
     <MESSAGE value="Validation of forms 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation of forms 2" />
+    <MESSAGE value="Validation of forms 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation of forms 3" />
   </component>
 </project>
