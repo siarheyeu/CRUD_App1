@@ -61,8 +61,10 @@ static {
         return null;
     }
         public void save(Person person) {
-//            person.getId(++PEOPLE_COUNT);
-//            people.add(person);
+
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement()
+        }
 
             try {
                 Statement statement = connection.createStatement();

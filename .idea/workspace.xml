@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="JDBC API">
+    <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +172,8 @@
       <workItem from="1672159615712" duration="3415000" />
       <workItem from="1672218995163" duration="1249000" />
       <workItem from="1672247354870" duration="3002000" />
-      <workItem from="1672321678871" duration="5077000" />
+      <workItem from="1672321678871" duration="5238000" />
+      <workItem from="1672419543154" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672258053499</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="JDBC API. Databases">
+      <created>1672332234244</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672332234244</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +293,7 @@
     <MESSAGE value="Validation of forms 3" />
     <MESSAGE value="Annotation @Valid" />
     <MESSAGE value="JDBC API" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC API" />
+    <MESSAGE value="JDBC API. Databases" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC API. Databases" />
   </component>
 </project>
