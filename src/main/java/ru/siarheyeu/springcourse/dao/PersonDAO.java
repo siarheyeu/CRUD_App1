@@ -57,23 +57,44 @@ static {
     }
 
     public Person show(int id) {
-        //   return people.stream().filter(person -> person.getId() == id).findAny().orElse((null);
-        return null;
+
+    Person person = null;
+
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM Person WHERE id = ?");
+
+            preparedStatement.setInt (1, id);
+
+           ResultSet resultSet = preparedStatement.executeQuery();
+
+           resultSet.next();
+
+           person = new Person();
+
+            person.setId(resultSet.getInt("id"));
+            person.setId(resultSet.getString("name"));
+            person.setId(resultSet.getString("email"));
+            person.setId(resultSet.getInt("age"));
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return person;
     }
         public void save(Person person) {
 
-        try{
-            PreparedStatement preparedStatement = connection.prepareStatement()
-        }
-
+            PreparedStatement preparedStatement;
             try {
-                Statement statement = connection.createStatement();
-                String SQL = "INSERT INTO Person VALUES(" + 1 + "," + person.getName() + "'," + person.getAge() +  "'," + person.getEmail() + "')";
+                preparedStatement = connection.prepareStatement("INSERT INTO Person VALUES(1, ?, ?, ?)");
+            }
 
-                // INSERT INTO Person VALUES(1, 'Tom', 18, 'asdf@mail.ru')
+            preparedStatement.setString(1, person.getName());
+            preparedStatement.setInt(2, person.getAge());
+            preparedStatement.setString(3, person.getEmail());
 
-                statement.executeUpdate(SQL);
-            } catch (SQLException throwables) {
+            preparedStatement.executeUpdate();
+        } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }
         }
