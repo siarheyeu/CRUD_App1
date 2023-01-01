@@ -100,6 +100,12 @@ static {
         }
 
         public void update(int id, Person updatePerson){
+
+            try {
+                PreparedStatement preparedStatement = connection.prepareStatement("UPDATE Person SET name=?, age=?, email=? WHERE id=?")
+            } catch (SQLException throwables) {
+               throwables.printStackTrace();
+            }
 //            Person personToBeUpdated = show(id);
 //
 //            personToBeUpdated.setName(updatePeson.getName());
