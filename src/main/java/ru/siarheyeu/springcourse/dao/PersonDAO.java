@@ -6,8 +6,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import ru.siarheyeu.springcourse.models.Person;
 
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.List;
 @Component
 public class PersonDAO {
@@ -40,17 +38,7 @@ public class PersonDAO {
 
         public void delete(int id) {
 
-    PreparedStatement preparedStatement =null;
-
-            try {
-                preparedStatement = connection.prepareStatement("DELETE FROM Person WHERE id=?");
-
-                preparedStatement.setInt(1, id);
-
-                preparedStatement.executeUpdate();
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
-            }
+            jdbcTemplate.update("DELETE FROM Person WHERE id=?, id");
         }
 
 }
