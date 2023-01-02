@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +179,7 @@
       <workItem from="1672419543154" duration="2137000" />
       <workItem from="1672514230292" duration="1679000" />
       <workItem from="1672605551305" duration="1166000" />
-      <workItem from="1672650838048" duration="1547000" />
+      <workItem from="1672650838048" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -298,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672605941839</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="PreparedStatement 4">
+      <created>1672652716283</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672652716283</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +331,7 @@
     <MESSAGE value="PreapredStatement" />
     <MESSAGE value="PreparedStatement 2" />
     <MESSAGE value="PreparedStatement 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="PreparedStatement 3" />
+    <MESSAGE value="PreparedStatement 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="PreparedStatement 4" />
   </component>
 </project>
