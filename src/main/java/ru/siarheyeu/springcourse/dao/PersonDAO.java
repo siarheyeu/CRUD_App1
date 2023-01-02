@@ -1,5 +1,6 @@
 package ru.siarheyeu.springcourse.dao;
 
+import org.springframework.beans.factory.groovy.GroovyDynamicElementReader;
 import org.springframework.stereotype.Component;
 import ru.siarheyeu.springcourse.models.Person;
 
@@ -31,6 +32,8 @@ static {
         throwables.printStackTrace();
     }
 }
+
+    private Person updatedPerson;
 
     public List<Person> index(){
       List<Person> people = new ArrayList<>();
@@ -103,18 +106,33 @@ static {
 
             try {
                 PreparedStatement preparedStatement = connection.prepareStatement("UPDATE Person SET name=?, age=?, email=? WHERE id=?")
+
+
+                preparedStatement.setString(1, updatedPerson.getName());
+                preparedStatement.setInt(2, updatedPerson.getAge());
+                preparedStatement.setString(3, updatedPerson.getEmail());
+                preparedStatement.setInt(4, updatedPerson.id);
+
+                preparedStatement.executeUpdate();
             } catch (SQLException throwables) {
                throwables.printStackTrace();
             }
-//            Person personToBeUpdated = show(id);
 //
-//            personToBeUpdated.setName(updatePeson.getName());
-//            personToBeUpdated.setAge(updatedPerson.getAge());
-//            personToBeUpdated.setEmail(updatedPerson.getEmail());
         }
 
         public void delete(int id) {
-            people.removeIf(p -> p.getId() == id);
+
+    PreparedStatement preparedStatement =null;
+
+            try {
+                preparedStatement = connection.prepareStatement("DELETE FROM Person WHERE id=?");
+
+                preparedStatement.setInt(1, id);
+
+                preparedStatement.executeUpdate();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
         }
 
 }
