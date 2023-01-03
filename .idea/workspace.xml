@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/config/SpringResourceTemplateResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/config/SpringConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.46091953&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0fe63636df628b5c393d1e0211bb9743&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.46091953",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "spring.configuration.checksum": "0fe63636df628b5c393d1e0211bb9743"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -178,7 +180,8 @@
       <workItem from="1672419543154" duration="2137000" />
       <workItem from="1672514230292" duration="1679000" />
       <workItem from="1672605551305" duration="1166000" />
-      <workItem from="1672650838048" duration="9627000" />
+      <workItem from="1672650838048" duration="9788000" />
+      <workItem from="1672737462131" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -313,7 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672662526102</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="JdbcTemplate 2">
+      <created>1672696587453</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672696587453</updated>
+    </task>
+    <task id="LOCAL-00021" summary="JdbcTemplate 3">
+      <created>1672696685616</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1672696685616</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +356,8 @@
     <MESSAGE value="PreparedStatement 3" />
     <MESSAGE value="PreparedStatement 4" />
     <MESSAGE value="JdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="JdbcTemplate" />
+    <MESSAGE value="JdbcTemplate 2" />
+    <MESSAGE value="JdbcTemplate 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JdbcTemplate 3" />
   </component>
 </project>
