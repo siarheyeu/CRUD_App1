@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/BathController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/BathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/BathController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JavaProject/CRUD_App1/src/main/webapp/WEB-INF/views/batch",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.46091953",
@@ -62,6 +64,10 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.siarheyeu.springcourse.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\CRUD_App1\src\main\webapp\WEB-INF\views\batch" />
+      <recent name="D:\JavaProject\CRUD_App1\src\main\webapp\WEB-INF\views\people" />
     </key>
   </component>
   <component name="RunManager">
@@ -184,7 +190,7 @@
       <workItem from="1672514230292" duration="1679000" />
       <workItem from="1672605551305" duration="1166000" />
       <workItem from="1672650838048" duration="9788000" />
-      <workItem from="1672737462131" duration="3198000" />
+      <workItem from="1672737462131" duration="5833000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -340,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672738367039</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Batch update">
+      <created>1672741211576</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672741211576</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,6 +382,7 @@
     <MESSAGE value="JdbcTemplate 2" />
     <MESSAGE value="JdbcTemplate 3" />
     <MESSAGE value="Database configuration from an external file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database configuration from an external file" />
+    <MESSAGE value="Batch update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Batch update" />
   </component>
 </project>
