@@ -190,7 +190,8 @@
       <workItem from="1672737462131" duration="5935000" />
       <workItem from="1672764019517" duration="241000" />
       <workItem from="1672841445515" duration="6853000" />
-      <workItem from="1672917837604" duration="5354000" />
+      <workItem from="1672917837604" duration="7411000" />
+      <workItem from="1673000200454" duration="1068000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -381,14 +382,20 @@
       <option name="project" value="LOCAL" />
       <updated>1672926125751</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="JOIN">
+      <created>1672935069752</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672935069752</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Annotation @ModelAttribute. HTML Forms(Thymeleaf)" />
     <MESSAGE value="PATCH Request" />
     <MESSAGE value="PATCH Request 2" />
     <MESSAGE value="PATCH Request 3" />
@@ -413,6 +420,7 @@
     <MESSAGE value="Automatic generation of the ID value" />
     <MESSAGE value="Сascading in databases" />
     <MESSAGE value="Constraints - NOT NULL, UNIQUE, PRIMARY KEY, CHECK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constraints - NOT NULL, UNIQUE, PRIMARY KEY, CHECK" />
+    <MESSAGE value="JOIN" />
+    <option name="LAST_COMMIT_MESSAGE" value="JOIN" />
   </component>
 </project>
