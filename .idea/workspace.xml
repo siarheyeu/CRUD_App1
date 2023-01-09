@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3b9e3ff-27e1-4571-8f03-d0fc7beb4e47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/siarheyeu/springcourse/controllers/AdminController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -196,7 +196,7 @@
       <workItem from="1673000200454" duration="1694000" />
       <workItem from="1673083979864" duration="12283000" />
       <workItem from="1673115756442" duration="134000" />
-      <workItem from="1673257284298" duration="2321000" />
+      <workItem from="1673257284298" duration="4259000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit 2">
       <created>1671127196490</created>
@@ -422,14 +422,20 @@
       <option name="project" value="LOCAL" />
       <updated>1673115705476</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Drop-down lists">
+      <created>1673261903792</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673261903792</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DELETE Request" />
     <MESSAGE value="Validation of forms" />
     <MESSAGE value="Validation of forms 2" />
     <MESSAGE value="Validation of forms 3" />
@@ -454,6 +460,7 @@
     <MESSAGE value="Spring Validator" />
     <MESSAGE value="Spring Validator 2" />
     <MESSAGE value="Pattern validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern validation" />
+    <MESSAGE value="Drop-down lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drop-down lists" />
   </component>
 </project>
